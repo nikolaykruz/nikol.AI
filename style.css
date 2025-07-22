@@ -13,7 +13,13 @@ html, body {
   font-family: 'Segoe UI', Arial, sans-serif;
   background: var(--primary-bg);
   color: var(--text-main);
+  display: flex;              /* 💡 enables flex layout */
+  justify-content: center;    /* 💡 centers horizontally */
+  flex-direction: column;     /* vertical flow */
+  align-items: center;        /* optional: aligns children on cross-axis */
 }
+
+
 
 .navbar {
   display: flex;
